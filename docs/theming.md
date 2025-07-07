@@ -9,7 +9,7 @@ In this guide, we'll transform your Hyprland setup into a visually stunning envi
 ##### Installation
 
 ```
-xbps-install -Su nwg-look
+sudo xbps-install -Su nwg-look
 ```
 
 #### [qt5ct](https://github.com/desktop-app/qt5ct), [qt6ct](https://github.com/trialuser02/qt6ct), [Kvantum](https://github.com/tsujan/Kvantum/tree/master/Kvantum)
@@ -18,7 +18,7 @@ These tools are essential for managing and applying themes to QT5 and QT6 applic
 ##### Installation
 
 ```
-xbps-install -Su qt5ct qt6ct kvantum
+sudo xbps-install -Su qt5ct qt6ct kvantum
 ```
 
 ##### Adding QT Environment Variables
@@ -31,7 +31,7 @@ Place the themes in the system theme directory. For this guide, we'll install th
 Extract the theme from the repos assets to the following location to apply it system-wide:
 
 ```
-tar -xvf ~/simple-hyprland/assets/themes/Catppuccin-Mocha.tar.xz -C /usr/share/themes/
+tar -xvf ~/simple-hyprland-void/assets/themes/Catppuccin-Mocha.tar.xz -C /usr/share/themes/
 ```
 
 #### Icon Theme
@@ -40,14 +40,12 @@ Place the icon theme in the system icon directory. We'll install the [Tela icon 
 Extract the theme from our assets to the following location to apply it system-wide:
 
 ```
-tar -xvf ~/simple-hyprland/assets/icons/Tela-circle-dracula.tar.xz -C /usr/share/icons/
+tar -xvf ~/simple-hyprland-void/assets/icons/Tela-circle-dracula.tar.xz -C /usr/share/icons/
 ```
 
 #### Kvantum Theme
-For Arch-based systems, install the kvantum-theme-catppuccin from the AUR:
 
 ```
-yay -S kvantum-theme-catppuccin-git
 ```
 
 ## Setting the Themes 🖼️
@@ -64,11 +62,11 @@ At this stage, you might want to theme specific applications to achieve a unifor
 #### 1. Alacritty: The terminal emulator
 Copy the configuration files for the Catppuccin theme:
 
-1. `alacritty.conf` - Kitty configuration file
+1. `alacritty.conf` - Alacritty configuration file
 2. `theme.conf` - Theme file
 
 ```
-cp -r ~/simple-hyprland/configs/alacritty ~/.config/
+cp -r ~/simple-hyprland-void/configs/alacritty ~/.config/
 ```
 #### 2. Neovim: The Code editor
 Install the Catppuccin theme extension from the Visual Studio Code Marketplace.
@@ -77,7 +75,7 @@ Install the Catppuccin theme extension from the Visual Studio Code Marketplace.
 Copy the configuration file i.e. `dunstrc`.
 
 ```
-cp -r ~/simple-hyprland/configs/dunst ~/.config/
+cp -r ~/simple-hyprland-void/configs/dunst ~/.config/
 ```
 
 ## Misc 🔧

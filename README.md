@@ -30,17 +30,17 @@ If you're new to this guide, you can start from the [Prerequisites section](docs
 6. [Summary](docs/final.md)
 
 ## Compatibility ⚙️
-While this guide is created with [Void Linux](https://archlinux.org/) in mind, it can also be helpful for users of other distributions who are familiar with their package management and system tweaking.
+While this guide is created with [Void Linux](https://voidlinux.org/) in mind, it can also be helpful for users of other distributions who are familiar with their package management and system tweaking.
 
 ## Quick Installation Script 🚀
 
 1. Clone the repository to your home folder:
     ```
-    git clone https://github.com/gaurav23b/simple-hyprland.git ~/simple-hyprland
+    git clone https://github.com/xlae13/simple-hyprland-void.git ~/simple-hyprland-void
     ```
 2. Navigate to the installer directory:
     ```
-    cd ~/simple-hyprland/scripts/installer
+    cd ~/simple-hyprland-void/scripts/installer
     ```
 3. Run the installation script with sudo:
     ```
@@ -64,7 +64,6 @@ After installation, you'll want to familiarize yourself with the default key bin
 - `Super + B`: Open the browser (`$browser`).
 - `Super + O`: Open notes application (`$notes`).
 - `Super + C`: Open the primary editor (`$editor`).
-- `Super + S`: Open the alternative editor (`$editor-alt`).
 - `Super + F`: Open the file manager (`$fileManager`).
 - `Super + A`: Open the application menu (`$menu`).
 - `Super + M`: Exit Hyprland.
@@ -109,6 +108,5 @@ Many configuration parts, themes, and scripts in this guide are sourced from the
 ## References 📖
 * [Hyprland Wiki](https://wiki.hyprland.org/)
 * [Hyprdots Repo](https://github.com/prasanthrangan/hyprdots)
-* [Hyprland-titus Repo](https://github.com/ChrisTitusTech/hyprland-titus) and more.
 
 Feel free to explore the documentation and contribute to this guide if you find any improvements or have suggestions. 🤝

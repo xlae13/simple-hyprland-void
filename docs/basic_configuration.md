@@ -12,10 +12,10 @@ Define frequently used applications for rapid access:
 
 ```
 # Define primary applications
-$terminal = kitty
-$fileManager = dolphin
-$browser = brave-browser
-$editor = code
+$terminal = alacritty
+$fileManager = Thunar
+$browser = firefox
+$editor = neovim
 ```
 
 #### 3. Autostart Configuration 🚀

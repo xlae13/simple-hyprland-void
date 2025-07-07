@@ -17,8 +17,6 @@ run_command "sudo xbps-install -Su pipewire wireplumber pamixer brightnessctl" "
 
 run_command "sudo xbps-install -Su nerd-fonts-ttf" "Installing Nerd Fonts and Symbols (Recommended)" "yes" 
 
-run_command "sudo xbps-install -Su sddm && ln -s /etc/sv/sddm /var/service && sv start sddm" "Install and enable SDDM (Recommended)" "yes" "no" 
-
 run_command "sudo xbps-install -Su alacritty" "Install Alacritty (Recommended)" "yes"
 
 run_command "sudo xbps-install -Su neovim" "Install neovim" "yes"

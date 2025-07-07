@@ -13,7 +13,7 @@ This section guides you through the installation and configuration of essential 
 ##### Installation
 
 ```
-pacman -S waybar
+sudo xbps-install -Su waybar
 ```
 
 ##### Configuration
@@ -24,7 +24,7 @@ Customize the appearance and behavior of the status bar by modifying the followi
 It will use some default configuration, you can copy my configuration files:
 
 ```
-cp -r ~/simple-hyprland/configs/waybar ~/.config/
+cp -r ~/simple-hyprland-void/configs/waybar ~/.config/
 ```
 
 **Note:** 📝 Note: Remember to reload the bar to apply any configuration changes.
@@ -33,7 +33,7 @@ cp -r ~/simple-hyprland/configs/waybar ~/.config/
 Add the following keybinding to reload the bar:
 
 ```
-bind = Ctrl, Escape, exec, killall waybar || waybar
+bind = Ctrl, Escape, exec, kill $(pidof waybar) || waybar
 ```
 
 Autostart the bar with:
@@ -50,7 +50,7 @@ exec-once=waybar
 ##### Installation
 
 ```
-yay -S tofi
+suco xbps-install -Su tofi
 ```
 
 ##### Configuration
@@ -61,7 +61,7 @@ Customize the appearance and behavior of the launcher by modifying the configura
 You can copy my pre-configured files:
 
 ```
-cp -r ~/simple-hyprland/configs/tofi ~/.config/
+cp -r ~/simple-hyprland-void/configs/tofi ~/.config/
 ```
 
 ##### Hypr
@@ -86,7 +86,7 @@ $menu = tofi-drun -c ~/.config/tofi/configA --drun-launch=true
 To install cliphist, use the following command:
 
 ```
-pacman -S cliphist
+sudo xbps-install -Su cliphist
 ```
 
 ##### Configuration
@@ -113,14 +113,14 @@ exec-once = wl-paste --type image --watch cliphist store
 To install `swww`, use the following command:
 
 ```
-yay -S swww
+sudo xbps-install -Su swww
 ```
 
 ##### Configuration
 Copy sample wallpapers (creates the assets folder inside .config):
 
 ```
-cp -r ~/simple-hyprland/assets/backgrounds ~/.config/assets/backgrounds/
+cp -r ~/simple-hyprland-void/assets/backgrounds ~/.config/assets/backgrounds/
 ```
 
 No specific configuration is needed.
@@ -147,7 +147,7 @@ bind = SUPER, N, exec, swww img ~/.config/assets/backgrounds/dark-cat-rosewater.
 ##### Installation
 
 ```
-yay -S hyprpicker
+sudo xbps-install -S hyprpicker
 ```
 
 ##### Configuration
@@ -168,7 +168,7 @@ A screen locker secures your computer when you are away, preventing unauthorized
 Install [hyprlock](https://github.com/hyprwm/hyprlock), which is designed to work well with Hyprland.
 
 ```
-yay -S hyprlock
+sudo xbps-install -Su hyprlock
 ```
 ##### Configuration
 Customize the screen locker by modifying the configuration file: `~/.config/hypr/hyprlock.conf`
@@ -176,7 +176,7 @@ Customize the screen locker by modifying the configuration file: `~/.config/hypr
 You can copy my configuration file:
 
 ```
-cp ~/simple-hyprland/configs/hypr/hyprlock.conf ~/.config/hypr/
+cp ~/simple-hyprland-void/configs/hypr/hyprlock.conf ~/.config/hypr/
 ```
 
 ##### Hypr
@@ -193,7 +193,7 @@ bind = SUPER, L, exec, hyprlock
 To install hypridle, use the following command:
 
 ```
-yay -S hypridle
+sudo xbps-install -Su hypridle
 ```
 
 ##### Configuration
@@ -202,7 +202,7 @@ Customize the idle manager behavior by modifying the configuration file: `~/.con
 You can copy my configuration file:
 
 ```
-cp ~/simple-hyprland/configs/hypr/hypridle.conf ~/.config/hypr/
+cp ~/simple-hyprland-void/configs/hypr/hypridle.conf ~/.config/hypr/
 ```
 
 ##### Hypr
@@ -223,7 +223,7 @@ exec-once = hypridle
 ##### Installation
 
 ```
-yay -S wlogout
+sudo xbps-install -Su wlogout
 ```
 
 ##### Configuration
@@ -234,8 +234,8 @@ Customize the appearance and behavior of the logout menu by modifying the follow
 It will use some default configuration, You can copy my pre-configured files:
 
 ```
-cp -r ~/simple-hyprland/configs/wlogout ~/.config/
-cp -r ~/simple-hyprland/assets/wlogout ~/.config/assets/ # copying assets
+cp -r ~/simple-hyprland-void/configs/wlogout ~/.config/
+cp -r ~/simple-hyprland-void/assets/wlogout ~/.config/assets/ # copying assets
 ```
 
 ##### Hypr
@@ -246,14 +246,14 @@ bind = SUPER, ESCAPE, exec, wlogout
 ```
 
 ## Taking Screenshots: Grimblast 📸
-[Grimblast](https://github.com/hyprwm/contrib/blob/main/grimblast/grimblast.1.scd) is a script that wraps around grim and slurp, providing enhanced functionality for capturing screenshots.
+[Grimblast](https://github.com/hyprwm/contrib/blob/main/grimblast/grimblast.1.scd)) is a script that wraps around grim and slurp, providing enhanced functionality for capturing screenshots.
 
 <img src="/assets/github_repo/images/grimblast.png" alt="grimblast">
 
 ##### Installation
 
 ```
-yay -S grimblast
+sudo xbps-install -Su grimbshot
 ```
 
 ##### Configuration
