@@ -1,0 +1,492 @@
+Sat Jul  5 11:40:03 PM MDT 2025: Installation started
+Sat Jul  5 11:40:03 PM MDT 2025: Script not run as root. Exiting.
+Sat Jul  5 23:40:08 MDT 2025: Installation started
+Sat Jul  5 23:40:08 MDT 2025: Original user is xlae
+Sat Jul  5 23:40:11 MDT 2025: Operation cancelled by user.
+Sat Jul  5 23:40:11 MDT 2025: Installation cancelled due to unsupported OS
+Sun Jul  6 03:27:44 PM MDT 2025: Installation started
+Sun Jul  6 03:27:44 PM MDT 2025: Script not run as root. Exiting.
+Sun Jul  6 15:27:47 MDT 2025: Installation started
+Sun Jul  6 15:27:47 MDT 2025: Original user is xlae
+Sun Jul  6 15:27:52 MDT 2025: Operation cancelled by user.
+Sun Jul  6 15:27:52 MDT 2025: Installation cancelled due to unsupported OS
+Sun Jul  6 03:34:29 PM MDT 2025: Installation started
+Sun Jul  6 03:34:29 PM MDT 2025: Original user is xlae
+Sun Jul  6 03:34:29 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 03:34:34 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:34:34 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 03:34:34 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 03:34:42 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 03:34:42 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) was skipped by user choice.
+Sun Jul  6 03:34:42 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 03:34:47 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:35:08 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 03:35:08 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 03:36:01 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:36:01 PM MDT 2025: Command failed: xpbs-install -Su pipewire wireplumber pamixer brightnessctl
+Sun Jul  6 03:36:05 PM MDT 2025: Script interrupted and exited
+Sun Jul  6 03:36:42 PM MDT 2025: Installation started
+Sun Jul  6 03:36:42 PM MDT 2025: Original user is xlae
+Sun Jul  6 03:36:42 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 03:36:46 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:36:46 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 03:36:46 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 03:36:47 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:36:47 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) completed successfully.
+Sun Jul  6 03:36:47 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 03:37:08 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:09 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 03:37:09 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 03:37:17 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:20 PM MDT 2025: Configuring audio and brightness (Recommended) completed successfully.
+Sun Jul  6 03:37:20 PM MDT 2025: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Sun Jul  6 03:37:22 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:22 PM MDT 2025: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Sun Jul  6 03:37:22 PM MDT 2025: Attempting to run: Install and enable SDDM (Recommended)
+Sun Jul  6 03:37:26 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:26 PM MDT 2025: Install and enable SDDM (Recommended) completed successfully.
+Sun Jul  6 03:37:26 PM MDT 2025: Attempting to run: Install Alacritty (Recommended)
+Sun Jul  6 03:37:37 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:37 PM MDT 2025: Install Alacritty (Recommended) completed successfully.
+Sun Jul  6 03:37:37 PM MDT 2025: Attempting to run: Install neovim
+Sun Jul  6 03:37:39 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:40 PM MDT 2025: Install neovim completed successfully.
+Sun Jul  6 03:37:40 PM MDT 2025: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+Sun Jul  6 03:37:41 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:42 PM MDT 2025: Install tar for extracting files (Must)/needed for copying themes completed successfully.
+Sun Jul  6 03:37:47 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:47 PM MDT 2025: Installation started for hypr section
+Sun Jul  6 03:37:47 PM MDT 2025: Attempting to run: Install Hyprland (Must)
+Sun Jul  6 03:37:51 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:37:51 PM MDT 2025: Install Hyprland (Must) completed successfully.
+Sun Jul  6 03:37:51 PM MDT 2025: Attempting to run: Copy hyprland config (Must)
+Sun Jul  6 03:38:04 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:38:04 PM MDT 2025: Command failed: mkdir -p /home/xlae/.config/hypr/ && cp -r /home/xlae/simple-hyprland/configs/hypr/hyprland.conf /home/xlae/.config/hypr/
+Sun Jul  6 03:38:16 PM MDT 2025: Script interrupted and exited
+Sun Jul  6 03:39:43 PM MDT 2025: Installation started
+Sun Jul  6 03:39:43 PM MDT 2025: Original user is xlae
+Sun Jul  6 03:39:43 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 03:39:44 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:39:44 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 03:39:44 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 03:39:45 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:39:45 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) completed successfully.
+Sun Jul  6 03:39:45 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 03:39:46 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:39:46 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 03:39:46 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 03:39:47 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:39:47 PM MDT 2025: Configuring audio and brightness (Recommended) completed successfully.
+Sun Jul  6 03:39:47 PM MDT 2025: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Sun Jul  6 03:39:48 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:39:49 PM MDT 2025: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Sun Jul  6 03:39:49 PM MDT 2025: Attempting to run: Install and enable SDDM (Recommended)
+Sun Jul  6 03:39:49 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:39:50 PM MDT 2025: Install and enable SDDM (Recommended) completed successfully.
+Sun Jul  6 03:39:50 PM MDT 2025: Attempting to run: Install Alacritty (Recommended)
+Sun Jul  6 03:40:23 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:24 PM MDT 2025: Install Alacritty (Recommended) completed successfully.
+Sun Jul  6 03:40:24 PM MDT 2025: Attempting to run: Install neovim
+Sun Jul  6 03:40:25 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:26 PM MDT 2025: Install neovim completed successfully.
+Sun Jul  6 03:40:26 PM MDT 2025: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+Sun Jul  6 03:40:27 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:28 PM MDT 2025: Install tar for extracting files (Must)/needed for copying themes completed successfully.
+Sun Jul  6 03:40:30 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:30 PM MDT 2025: Installation started for hypr section
+Sun Jul  6 03:40:30 PM MDT 2025: Attempting to run: Install Hyprland (Must)
+Sun Jul  6 03:40:34 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:34 PM MDT 2025: Install Hyprland (Must) completed successfully.
+Sun Jul  6 03:40:34 PM MDT 2025: Attempting to run: Copy hyprland config (Must)
+Sun Jul  6 03:40:37 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:37 PM MDT 2025: Copy hyprland config (Must) completed successfully.
+Sun Jul  6 03:40:37 PM MDT 2025: Attempting to run: Install XDG desktop portal for Hyprland
+Sun Jul  6 03:40:40 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:47 PM MDT 2025: Install XDG desktop portal for Hyprland completed successfully.
+Sun Jul  6 03:40:47 PM MDT 2025: Attempting to run: Install KDE Polkit agent for authentication dialogs
+Sun Jul  6 03:40:50 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:50 PM MDT 2025: Install KDE Polkit agent for authentication dialogs completed successfully.
+Sun Jul  6 03:40:50 PM MDT 2025: Attempting to run: Install Dunst notification daemon
+Sun Jul  6 03:40:52 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:52 PM MDT 2025: Install Dunst notification daemon completed successfully.
+Sun Jul  6 03:40:52 PM MDT 2025: Attempting to run: Copy dunst config
+Sun Jul  6 03:40:53 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:53 PM MDT 2025: Copy dunst config completed successfully.
+Sun Jul  6 03:40:53 PM MDT 2025: Attempting to run: Install QT support on wayland
+Sun Jul  6 03:40:55 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:56 PM MDT 2025: Install QT support on wayland completed successfully.
+Sun Jul  6 03:40:58 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:40:58 PM MDT 2025: Installation started for utilities section
+Sun Jul  6 03:40:58 PM MDT 2025: Attempting to run: Install Waybar - Status Bar
+Sun Jul  6 03:41:02 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:41:03 PM MDT 2025: Install Waybar - Status Bar completed successfully.
+Sun Jul  6 03:41:03 PM MDT 2025: Attempting to run: Copy Waybar config
+Sun Jul  6 03:41:09 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:41:09 PM MDT 2025: Copy Waybar config completed successfully.
+Sun Jul  6 03:41:09 PM MDT 2025: Attempting to run: Install Tofi - Application Launcher
+Sun Jul  6 03:41:10 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:41:11 PM MDT 2025: Command failed: xbps-install -Su tofi
+Sun Jul  6 03:41:24 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:41:25 PM MDT 2025: Command failed: xbps-install -Su tofi
+Sun Jul  6 03:42:10 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 03:42:10 PM MDT 2025: Install Tofi - Application Launcher was not completed due to failure and user chose not to retry.
+Sun Jul  6 03:42:10 PM MDT 2025: Attempting to run: Copy Tofi config(s)
+Sun Jul  6 03:42:12 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:42:12 PM MDT 2025: Copy Tofi config(s) completed successfully.
+Sun Jul  6 03:42:12 PM MDT 2025: Attempting to run: Install Cliphist - Clipboard Manager
+Sun Jul  6 03:42:14 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:42:18 PM MDT 2025: Install Cliphist - Clipboard Manager completed successfully.
+Sun Jul  6 03:42:18 PM MDT 2025: Attempting to run: Install SWWW for wallpaper management
+Sun Jul  6 03:42:20 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:42:21 PM MDT 2025: Command failed: xbps-install -Su swww
+Sun Jul  6 03:42:31 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 03:42:31 PM MDT 2025: Install SWWW for wallpaper management was not completed due to failure and user chose not to retry.
+Sun Jul  6 03:42:31 PM MDT 2025: Attempting to run: Copy sample wallpapers to assets directory (Recommended)
+Sun Jul  6 03:42:35 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:42:35 PM MDT 2025: Copy sample wallpapers to assets directory (Recommended) completed successfully.
+Sun Jul  6 03:42:35 PM MDT 2025: Attempting to run: Install Hyprpicker - Color Picker
+Sun Jul  6 03:42:37 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:42:37 PM MDT 2025: Command failed: xbps-install -Su hyprpicker
+Sun Jul  6 03:46:28 PM MDT 2025: Script interrupted and exited
+Sun Jul  6 03:46:34 PM MDT 2025: Installation started
+Sun Jul  6 03:46:34 PM MDT 2025: Original user is xlae
+Sun Jul  6 03:46:34 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 03:46:37 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:46:37 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 03:46:37 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 03:46:41 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:46:41 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) completed successfully.
+Sun Jul  6 03:46:41 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 03:46:42 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:46:43 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 03:46:43 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 03:46:44 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:46:45 PM MDT 2025: Configuring audio and brightness (Recommended) completed successfully.
+Sun Jul  6 03:46:45 PM MDT 2025: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Sun Jul  6 03:46:47 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:46:48 PM MDT 2025: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Sun Jul  6 03:46:48 PM MDT 2025: Attempting to run: Install and enable SDDM (Recommended)
+Sun Jul  6 03:46:50 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:46:51 PM MDT 2025: Command failed: sudo xbps-install -Su sddm && ln -s /etc/sv/sddm /var/service && sv start sddm
+Sun Jul  6 03:46:55 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 03:46:55 PM MDT 2025: Install and enable SDDM (Recommended) was not completed due to failure and user chose not to retry.
+Sun Jul  6 03:46:55 PM MDT 2025: Attempting to run: Install Alacritty (Recommended)
+Sun Jul  6 03:46:59 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:00 PM MDT 2025: Install Alacritty (Recommended) completed successfully.
+Sun Jul  6 03:47:00 PM MDT 2025: Attempting to run: Install neovim
+Sun Jul  6 03:47:02 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:02 PM MDT 2025: Install neovim completed successfully.
+Sun Jul  6 03:47:02 PM MDT 2025: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+Sun Jul  6 03:47:04 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:04 PM MDT 2025: Install tar for extracting files (Must)/needed for copying themes completed successfully.
+Sun Jul  6 03:47:06 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:06 PM MDT 2025: Installation started for hypr section
+Sun Jul  6 03:47:06 PM MDT 2025: Attempting to run: Install Hyprland (Must)
+Sun Jul  6 03:47:09 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:09 PM MDT 2025: Install Hyprland (Must) completed successfully.
+Sun Jul  6 03:47:09 PM MDT 2025: Attempting to run: Copy hyprland config (Must)
+Sun Jul  6 03:47:11 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:11 PM MDT 2025: Copy hyprland config (Must) completed successfully.
+Sun Jul  6 03:47:11 PM MDT 2025: Attempting to run: Install XDG desktop portal for Hyprland
+Sun Jul  6 03:47:12 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:13 PM MDT 2025: Install XDG desktop portal for Hyprland completed successfully.
+Sun Jul  6 03:47:13 PM MDT 2025: Attempting to run: Install KDE Polkit agent for authentication dialogs
+Sun Jul  6 03:47:13 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:14 PM MDT 2025: Install KDE Polkit agent for authentication dialogs completed successfully.
+Sun Jul  6 03:47:14 PM MDT 2025: Attempting to run: Install Dunst notification daemon
+Sun Jul  6 03:47:15 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:16 PM MDT 2025: Install Dunst notification daemon completed successfully.
+Sun Jul  6 03:47:16 PM MDT 2025: Attempting to run: Copy dunst config
+Sun Jul  6 03:47:17 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:17 PM MDT 2025: Copy dunst config completed successfully.
+Sun Jul  6 03:47:17 PM MDT 2025: Attempting to run: Install QT support on wayland
+Sun Jul  6 03:47:18 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:18 PM MDT 2025: Install QT support on wayland completed successfully.
+Sun Jul  6 03:47:20 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:20 PM MDT 2025: Installation started for utilities section
+Sun Jul  6 03:47:20 PM MDT 2025: Attempting to run: Install Waybar - Status Bar
+Sun Jul  6 03:47:21 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:22 PM MDT 2025: Install Waybar - Status Bar completed successfully.
+Sun Jul  6 03:47:22 PM MDT 2025: Attempting to run: Copy Waybar config
+Sun Jul  6 03:47:22 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:22 PM MDT 2025: Copy Waybar config completed successfully.
+Sun Jul  6 03:47:22 PM MDT 2025: Attempting to run: Install Tofi - Application Launcher
+Sun Jul  6 03:47:25 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:31 PM MDT 2025: Install Tofi - Application Launcher completed successfully.
+Sun Jul  6 03:47:31 PM MDT 2025: Attempting to run: Copy Tofi config(s)
+Sun Jul  6 03:47:33 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:33 PM MDT 2025: Copy Tofi config(s) completed successfully.
+Sun Jul  6 03:47:33 PM MDT 2025: Attempting to run: Install Cliphist - Clipboard Manager
+Sun Jul  6 03:47:34 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:35 PM MDT 2025: Install Cliphist - Clipboard Manager completed successfully.
+Sun Jul  6 03:47:35 PM MDT 2025: Attempting to run: Install SWWW for wallpaper management
+Sun Jul  6 03:47:36 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:47 PM MDT 2025: Install SWWW for wallpaper management completed successfully.
+Sun Jul  6 03:47:47 PM MDT 2025: Attempting to run: Copy sample wallpapers to assets directory (Recommended)
+Sun Jul  6 03:47:49 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:49 PM MDT 2025: Copy sample wallpapers to assets directory (Recommended) completed successfully.
+Sun Jul  6 03:47:49 PM MDT 2025: Attempting to run: Install Hyprpicker - Color Picker
+Sun Jul  6 03:47:50 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:47:54 PM MDT 2025: Install Hyprpicker - Color Picker completed successfully.
+Sun Jul  6 03:47:54 PM MDT 2025: Attempting to run: Install Hyprlock - Screen Locker (Must)
+Sun Jul  6 03:47:55 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:00 PM MDT 2025: Install Hyprlock - Screen Locker (Must) completed successfully.
+Sun Jul  6 03:48:00 PM MDT 2025: Attempting to run: Copy Hyprlock config
+Sun Jul  6 03:48:01 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:01 PM MDT 2025: Copy Hyprlock config completed successfully.
+Sun Jul  6 03:48:01 PM MDT 2025: Attempting to run: Install Wlogout - Session Manager
+Sun Jul  6 03:48:03 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:07 PM MDT 2025: Install Wlogout - Session Manager completed successfully.
+Sun Jul  6 03:48:07 PM MDT 2025: Attempting to run: Copy Wlogout config and assets
+Sun Jul  6 03:48:08 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:08 PM MDT 2025: Copy Wlogout config and assets completed successfully.
+Sun Jul  6 03:48:08 PM MDT 2025: Attempting to run: Install Grimshot - Screenshot tool
+Sun Jul  6 03:48:10 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:14 PM MDT 2025: Install Grimshot - Screenshot tool completed successfully.
+Sun Jul  6 03:48:14 PM MDT 2025: Attempting to run: Install Hypridle for idle management (Must)
+Sun Jul  6 03:48:17 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:21 PM MDT 2025: Install Hypridle for idle management (Must) completed successfully.
+Sun Jul  6 03:48:21 PM MDT 2025: Attempting to run: Copy Hypridle config
+Sun Jul  6 03:48:22 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:22 PM MDT 2025: Copy Hypridle config completed successfully.
+Sun Jul  6 03:48:26 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:26 PM MDT 2025: Installation started for theming section
+Sun Jul  6 03:48:26 PM MDT 2025: Attempting to run: Install nwg-look for GTK theme management
+Sun Jul  6 03:48:29 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:30 PM MDT 2025: Install nwg-look for GTK theme management completed successfully.
+Sun Jul  6 03:48:30 PM MDT 2025: Attempting to run: Install Qt5, Qt6 Settings, and Kvantum theme engines
+Sun Jul  6 03:48:32 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:38 PM MDT 2025: Install Qt5, Qt6 Settings, and Kvantum theme engines completed successfully.
+Sun Jul  6 03:48:38 PM MDT 2025: Attempting to run: Install Catppuccin Mocha GTK theme
+Sun Jul  6 03:48:39 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:39 PM MDT 2025: Install Catppuccin Mocha GTK theme completed successfully.
+Sun Jul  6 03:48:39 PM MDT 2025: Attempting to run: Install Tela Circle Dracula icon theme
+Sun Jul  6 03:48:40 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:42 PM MDT 2025: Install Tela Circle Dracula icon theme completed successfully.
+Sun Jul  6 03:48:42 PM MDT 2025: Attempting to run: Copy Catppuccin theme configuration for Alacritty terminal
+Sun Jul  6 03:48:56 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:48:56 PM MDT 2025: Command failed: cp -r /home/xlae/simple-hyprland/configs/alacritty /home/xlae/.config/
+Sun Jul  6 03:48:59 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 03:48:59 PM MDT 2025: Copy Catppuccin theme configuration for Alacritty terminal was not completed due to failure and user chose not to retry.
+Sun Jul  6 03:49:01 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 03:49:01 PM MDT 2025: Final setup script started
+Sun Jul  6 03:49:01 PM MDT 2025: Installation completed successfully
+Sun Jul  6 11:06:22 PM MDT 2025: Installation started
+Sun Jul  6 11:06:22 PM MDT 2025: Original user is xlae
+Sun Jul  6 11:06:22 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 11:06:23 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:06:23 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 11:06:23 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 11:06:25 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:06:25 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) completed successfully.
+Sun Jul  6 11:06:25 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 11:06:27 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:06:28 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 11:06:28 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 11:06:31 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:06:32 PM MDT 2025: Configuring audio and brightness (Recommended) completed successfully.
+Sun Jul  6 11:06:32 PM MDT 2025: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Sun Jul  6 11:06:32 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:06:33 PM MDT 2025: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Sun Jul  6 11:06:33 PM MDT 2025: Attempting to run: Install and enable SDDM (Recommended)
+Sun Jul  6 11:06:34 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:06:35 PM MDT 2025: Command failed: sudo xbps-install -Su sddm && ln -s /etc/sv/sddm /var/service && sv start sddm
+Sun Jul  6 11:06:53 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 11:06:53 PM MDT 2025: Install and enable SDDM (Recommended) was not completed due to failure and user chose not to retry.
+Sun Jul  6 11:06:53 PM MDT 2025: Attempting to run: Install Alacritty (Recommended)
+Sun Jul  6 11:11:28 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:11:29 PM MDT 2025: Install Alacritty (Recommended) completed successfully.
+Sun Jul  6 11:11:29 PM MDT 2025: Attempting to run: Install neovim
+Sun Jul  6 11:11:30 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:11:31 PM MDT 2025: Install neovim completed successfully.
+Sun Jul  6 11:11:31 PM MDT 2025: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+Sun Jul  6 11:11:32 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:11:32 PM MDT 2025: Install tar for extracting files (Must)/needed for copying themes completed successfully.
+Sun Jul  6 11:11:35 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:11:35 PM MDT 2025: Installation started for hypr section
+Sun Jul  6 11:11:35 PM MDT 2025: Attempting to run: Install hyprland-void (Must)
+Sun Jul  6 11:11:39 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:11:40 PM MDT 2025: Command failed: sudo xbps-install -Su hyprland-void
+Sun Jul  6 11:13:44 PM MDT 2025: Script interrupted and exited
+Sun Jul  6 11:13:50 PM MDT 2025: Installation started
+Sun Jul  6 11:13:50 PM MDT 2025: Original user is xlae
+Sun Jul  6 11:13:50 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 11:13:52 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:13:52 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 11:13:52 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 11:13:53 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:13:53 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) completed successfully.
+Sun Jul  6 11:13:53 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 11:13:56 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:13:57 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 11:13:57 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 11:13:59 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:13:59 PM MDT 2025: Configuring audio and brightness (Recommended) completed successfully.
+Sun Jul  6 11:13:59 PM MDT 2025: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Sun Jul  6 11:14:00 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:14:01 PM MDT 2025: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Sun Jul  6 11:14:01 PM MDT 2025: Attempting to run: Install and enable SDDM (Recommended)
+Sun Jul  6 11:14:02 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:14:02 PM MDT 2025: Command failed: sudo xbps-install -Su sddm && ln -s /etc/sv/sddm /var/service && sv start sddm
+Sun Jul  6 11:14:39 PM MDT 2025: Script interrupted and exited
+Sun Jul  6 11:14:40 PM MDT 2025: Installation started
+Sun Jul  6 11:14:40 PM MDT 2025: Original user is xlae
+Sun Jul  6 11:14:40 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 11:14:41 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:14:41 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 11:14:41 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 11:14:42 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:14:42 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) completed successfully.
+Sun Jul  6 11:14:42 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 11:14:43 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:14:43 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 11:14:43 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 11:14:44 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:14:44 PM MDT 2025: Configuring audio and brightness (Recommended) completed successfully.
+Sun Jul  6 11:14:44 PM MDT 2025: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Sun Jul  6 11:14:45 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:14:46 PM MDT 2025: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Sun Jul  6 11:14:46 PM MDT 2025: Attempting to run: Install and enable SDDM (Recommended)
+Sun Jul  6 11:14:53 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 11:14:53 PM MDT 2025: Install and enable SDDM (Recommended) was skipped by user choice.
+Sun Jul  6 11:14:53 PM MDT 2025: Attempting to run: Install Alacritty (Recommended)
+Sun Jul  6 11:15:01 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:15:02 PM MDT 2025: Install Alacritty (Recommended) completed successfully.
+Sun Jul  6 11:15:02 PM MDT 2025: Attempting to run: Install neovim
+Sun Jul  6 11:15:03 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:15:03 PM MDT 2025: Install neovim completed successfully.
+Sun Jul  6 11:15:03 PM MDT 2025: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+Sun Jul  6 11:15:04 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:15:05 PM MDT 2025: Install tar for extracting files (Must)/needed for copying themes completed successfully.
+Sun Jul  6 11:15:06 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:15:06 PM MDT 2025: Installation started for hypr section
+Sun Jul  6 11:15:06 PM MDT 2025: Attempting to run: Install hyprland-void (Must)
+Sun Jul  6 11:15:09 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:15:09 PM MDT 2025: Install hyprland-void (Must) completed successfully.
+Sun Jul  6 11:15:09 PM MDT 2025: Attempting to run: Copy hyprland-void config (Must)
+Sun Jul  6 11:15:19 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:15:19 PM MDT 2025: Command failed: mkdir -p /home/xlae/.config/hypr/ && cp -r /home/xlae/simple-hyprland-void/configs/hypr/hyprland-void.conf /home/xlae/.config/hypr/
+Sun Jul  6 11:19:14 PM MDT 2025: Script interrupted and exited
+Sun Jul  6 11:19:15 PM MDT 2025: Installation started
+Sun Jul  6 11:19:15 PM MDT 2025: Original user is xlae
+Sun Jul  6 11:19:15 PM MDT 2025: Void Linux detected. Installation proceeding.
+Sun Jul  6 11:19:16 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:19:16 PM MDT 2025: Installation started for prerequisites section
+Sun Jul  6 11:19:16 PM MDT 2025: Attempting to run: Add the third party Void Linux Hyprland repository (Required)
+Sun Jul  6 11:19:44 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:19:44 PM MDT 2025: Add the third party Void Linux Hyprland repository (Required) completed successfully.
+Sun Jul  6 11:19:44 PM MDT 2025: Attempting to run: Update package database and upgrade packages (Recommended)
+Sun Jul  6 11:19:45 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:19:46 PM MDT 2025: Update package database and upgrade packages (Recommended) completed successfully.
+Sun Jul  6 11:19:46 PM MDT 2025: Attempting to run: Configuring audio and brightness (Recommended)
+Sun Jul  6 11:19:50 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:19:51 PM MDT 2025: Configuring audio and brightness (Recommended) completed successfully.
+Sun Jul  6 11:19:51 PM MDT 2025: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Sun Jul  6 11:19:52 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:19:53 PM MDT 2025: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Sun Jul  6 11:19:53 PM MDT 2025: Attempting to run: Install and enable SDDM (Recommended)
+Sun Jul  6 11:19:54 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:19:58 PM MDT 2025: Command failed: sudo xbps-install -Su sddm && ln -s /etc/sv/sddm /var/service && sv start sddm
+Sun Jul  6 11:19:59 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 11:19:59 PM MDT 2025: Install and enable SDDM (Recommended) was not completed due to failure and user chose not to retry.
+Sun Jul  6 11:19:59 PM MDT 2025: Attempting to run: Install Alacritty (Recommended)
+Sun Jul  6 11:20:00 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:01 PM MDT 2025: Install Alacritty (Recommended) completed successfully.
+Sun Jul  6 11:20:01 PM MDT 2025: Attempting to run: Install neovim
+Sun Jul  6 11:20:01 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:02 PM MDT 2025: Install neovim completed successfully.
+Sun Jul  6 11:20:02 PM MDT 2025: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+Sun Jul  6 11:20:12 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:12 PM MDT 2025: Install tar for extracting files (Must)/needed for copying themes completed successfully.
+Sun Jul  6 11:20:13 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:13 PM MDT 2025: Installation started for hypr section
+Sun Jul  6 11:20:13 PM MDT 2025: Attempting to run: Install hyprland-void (Must)
+Sun Jul  6 11:20:14 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:15 PM MDT 2025: Install hyprland-void (Must) completed successfully.
+Sun Jul  6 11:20:15 PM MDT 2025: Attempting to run: Copy hyprland config (Must)
+Sun Jul  6 11:20:17 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:17 PM MDT 2025: Copy hyprland config (Must) completed successfully.
+Sun Jul  6 11:20:17 PM MDT 2025: Attempting to run: Install XDG desktop portal for hyprland-void
+Sun Jul  6 11:20:19 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:20 PM MDT 2025: Install XDG desktop portal for hyprland-void completed successfully.
+Sun Jul  6 11:20:20 PM MDT 2025: Attempting to run: Install KDE Polkit agent for authentication dialogs
+Sun Jul  6 11:20:22 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:23 PM MDT 2025: Install KDE Polkit agent for authentication dialogs completed successfully.
+Sun Jul  6 11:20:23 PM MDT 2025: Attempting to run: Install Dunst notification daemon
+Sun Jul  6 11:20:24 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:25 PM MDT 2025: Install Dunst notification daemon completed successfully.
+Sun Jul  6 11:20:25 PM MDT 2025: Attempting to run: Copy dunst config
+Sun Jul  6 11:20:28 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:28 PM MDT 2025: Copy dunst config completed successfully.
+Sun Jul  6 11:20:28 PM MDT 2025: Attempting to run: Install QT support on wayland
+Sun Jul  6 11:20:30 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:31 PM MDT 2025: Install QT support on wayland completed successfully.
+Sun Jul  6 11:20:40 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:40 PM MDT 2025: Installation started for utilities section
+Sun Jul  6 11:20:40 PM MDT 2025: Attempting to run: Install Waybar - Status Bar
+Sun Jul  6 11:20:42 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:43 PM MDT 2025: Install Waybar - Status Bar completed successfully.
+Sun Jul  6 11:20:43 PM MDT 2025: Attempting to run: Copy Waybar config
+Sun Jul  6 11:20:47 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 11:20:47 PM MDT 2025: Copy Waybar config was skipped by user choice.
+Sun Jul  6 11:20:48 PM MDT 2025: Attempting to run: Install Tofi - Application Launcher
+Sun Jul  6 11:20:52 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:58 PM MDT 2025: Install Tofi - Application Launcher completed successfully.
+Sun Jul  6 11:20:58 PM MDT 2025: Attempting to run: Copy Tofi config(s)
+Sun Jul  6 11:20:59 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:20:59 PM MDT 2025: Copy Tofi config(s) completed successfully.
+Sun Jul  6 11:20:59 PM MDT 2025: Attempting to run: Install Cliphist - Clipboard Manager
+Sun Jul  6 11:21:01 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:21:02 PM MDT 2025: Install Cliphist - Clipboard Manager completed successfully.
+Sun Jul  6 11:21:02 PM MDT 2025: Attempting to run: Install SWWW for wallpaper management
+Sun Jul  6 11:21:05 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:21:10 PM MDT 2025: Install SWWW for wallpaper management completed successfully.
+Sun Jul  6 11:21:10 PM MDT 2025: Attempting to run: Copy sample wallpapers to assets directory (Recommended)
+Sun Jul  6 11:21:32 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:21:32 PM MDT 2025: Copy sample wallpapers to assets directory (Recommended) completed successfully.
+Sun Jul  6 11:21:32 PM MDT 2025: Attempting to run: Install Hyprpicker - Color Picker
+Sun Jul  6 11:21:33 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:21:39 PM MDT 2025: Install Hyprpicker - Color Picker completed successfully.
+Sun Jul  6 11:21:39 PM MDT 2025: Attempting to run: Install Hyprlock - Screen Locker (Must)
+Sun Jul  6 11:21:40 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:21:45 PM MDT 2025: Install Hyprlock - Screen Locker (Must) completed successfully.
+Sun Jul  6 11:21:45 PM MDT 2025: Attempting to run: Copy Hyprlock config
+Sun Jul  6 11:21:53 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:21:53 PM MDT 2025: Copy Hyprlock config completed successfully.
+Sun Jul  6 11:21:53 PM MDT 2025: Attempting to run: Install Wlogout - Session Manager
+Sun Jul  6 11:21:54 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:21:58 PM MDT 2025: Install Wlogout - Session Manager completed successfully.
+Sun Jul  6 11:21:58 PM MDT 2025: Attempting to run: Copy Wlogout config and assets
+Sun Jul  6 11:22:14 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:14 PM MDT 2025: Copy Wlogout config and assets completed successfully.
+Sun Jul  6 11:22:14 PM MDT 2025: Attempting to run: Install Grimshot - Screenshot tool
+Sun Jul  6 11:22:17 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:21 PM MDT 2025: Install Grimshot - Screenshot tool completed successfully.
+Sun Jul  6 11:22:21 PM MDT 2025: Attempting to run: Install Hypridle for idle management (Must)
+Sun Jul  6 11:22:25 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:30 PM MDT 2025: Install Hypridle for idle management (Must) completed successfully.
+Sun Jul  6 11:22:30 PM MDT 2025: Attempting to run: Copy Hypridle config
+Sun Jul  6 11:22:36 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:36 PM MDT 2025: Copy Hypridle config completed successfully.
+Sun Jul  6 11:22:37 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:37 PM MDT 2025: Installation started for theming section
+Sun Jul  6 11:22:37 PM MDT 2025: Attempting to run: Install nwg-look for GTK theme management
+Sun Jul  6 11:22:39 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:39 PM MDT 2025: Install nwg-look for GTK theme management completed successfully.
+Sun Jul  6 11:22:39 PM MDT 2025: Attempting to run: Install Qt5, Qt6 Settings, and Kvantum theme engines
+Sun Jul  6 11:22:41 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:42 PM MDT 2025: Install Qt5, Qt6 Settings, and Kvantum theme engines completed successfully.
+Sun Jul  6 11:22:42 PM MDT 2025: Attempting to run: Install Catppuccin Mocha GTK theme
+Sun Jul  6 11:22:45 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:45 PM MDT 2025: Install Catppuccin Mocha GTK theme completed successfully.
+Sun Jul  6 11:22:45 PM MDT 2025: Attempting to run: Install Tela Circle Dracula icon theme
+Sun Jul  6 11:22:48 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:22:51 PM MDT 2025: Install Tela Circle Dracula icon theme completed successfully.
+Sun Jul  6 11:22:51 PM MDT 2025: Attempting to run: Copy Catppuccin theme configuration for Alacritty terminal
+Sun Jul  6 11:23:00 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:23:00 PM MDT 2025: Command failed: cp -r /home/xlae/simple-hyprland-void/configs/alacritty /home/xlae/.config/
+Sun Jul  6 11:23:04 PM MDT 2025: Operation cancelled by user.
+Sun Jul  6 11:23:04 PM MDT 2025: Copy Catppuccin theme configuration for Alacritty terminal was not completed due to failure and user chose not to retry.
+Sun Jul  6 11:23:16 PM MDT 2025: Operation accepted by user.
+Sun Jul  6 11:23:16 PM MDT 2025: Final setup script started
+Sun Jul  6 11:23:16 PM MDT 2025: Installation completed successfully
