@@ -1,0 +1,50 @@
+live_config_reload = true
+
+[shell]
+program = "/usr/bin/zsh"
+args = ["-l"]
+
+[window]
+startup_mode = "Windowed"
+title = "Alacritty"
+padding = { x = 8, y = 8 }
+dynamic_title = true 
+decorations_theme_variant = "None"
+decorations = "Full"
+opacity = 0.7
+blur = true 
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "auto" }
+size = 13
+builtin_box_drawing = true 
+
+[colors]
+import = [~/.config/alacritty/catppuccin-mocha.toml]
+
+[bell]
+animation = "Linear"
+duration = 0
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+save_to_clipboard = false
+
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+unfocused_hollow = true
+thickness = 0.15
+
+[mouse]
+hide_when_typing = false
+
+# BUGS
+# Found a bug? Please report it at https://github.com/alacritty/alacritty/issues.
+
+# MAINTAINERS
+# · Christian Duerr <contact@christianduerr.com>
+# · Kirill Chibisov <contact@kchibisov.com>
