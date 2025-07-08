@@ -1,6 +1,8 @@
+[general]
 live_config_reload = true
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/zsh"
 args = ["-l"]
 
@@ -11,7 +13,7 @@ padding = { x = 8, y = 8 }
 dynamic_title = true 
 decorations_theme_variant = "None"
 decorations = "Full"
-opacity = 0.7
+opacity = 0.6
 blur = true 
 
 [scrolling]
@@ -22,9 +24,6 @@ multiplier = 3
 normal = { family = "JetBrainsMono Nerd Font", style = "auto" }
 size = 13
 builtin_box_drawing = true 
-
-[colors]
-import = [~/.config/alacritty/catppuccin-mocha.toml]
 
 [bell]
 animation = "Linear"

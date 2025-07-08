@@ -21,6 +21,8 @@ run_command "sudo xbps-install -Su alacritty" "Install Alacritty (Recommended)" 
 
 run_command "sudo xbps-install -Su neovim" "Install neovim" "yes"
 
+run_command "git clone https://github.com/NvChad/starter ~/.config/nvim && nvim" "Install NvChad (for themes and coding LSP)" "yes"
+
 run_command "sudo xbps-install -Su tar" "Install tar for extracting files (Must)/needed for copying themes" "yes"
 
 echo "------------------------------------------------------------------------"

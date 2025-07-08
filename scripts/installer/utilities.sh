@@ -26,7 +26,7 @@ run_command "sudo xbps-install -Su hyprlock" "Install Hyprlock - Screen Locker (
 run_command "cp -r /home/$SUDO_USER/simple-hyprland-void/configs/hypr/hyprlock.conf /home/$SUDO_USER/.config/hypr/" "Copy Hyprlock config" "yes" "no"
 
 run_command "sudo xbps-install -Su wlogout" "Install Wlogout - Session Manager" "yes" "no"
-run_command "cp -r /home/$SUDO_USER/simple-hyprland-void/configs/wlogout /home/$SUDO_USER/.config/ && cp -r /home/$SUDO_USER/simple-hyprland-void/assets/wlogout /home/$SUDO_USER/.config/assets/" "Copy Wlogout config and assets" "yes" "no"
+run_command "cp -r /home/$SUDO_USER/simple-hyprland-void/configs/wlogout /home/$SUDO_USER/.config/ && sudo cp -r /home/$SUDO_USER/simple-hyprland-void/assets/wlogout /usr/share/wlogout/assets/" "Copy Wlogout config and assets" "yes" "no"
 
 run_command "sudo xbps-install -Su grimshot" "Install Grimshot - Screenshot tool" "yes" "no"
 
